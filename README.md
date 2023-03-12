@@ -1,3 +1,9 @@
 # cloudflare-functions-demo
 
-Cloudflare Functions Demo
+[Cloudflare Functions Demo](https://cloudflare-functions-demo-dqb.pages.dev/helloworld)
+
+See [Cloudflare Docs](https://developers.cloudflare.com/pages/platform/functions/)
+
+## License
+
+[MIT](LICENSE)

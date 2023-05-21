@@ -30,6 +30,12 @@ Start a local server for developing your Pages:
 npm start
 ```
 
+Fix error `Address already in use; 0.0.0.0:8788`:
+
+```sh
+kill $(lsof -ti :8788)
+```
+
 ## Functions
 
 <!-- prettier-ignore-start -->

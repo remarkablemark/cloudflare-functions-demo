@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "wrangler pages dev public"
+    "start": "npm run build && wrangler pages dev dist",
+    "build": "scripts/build.sh"
   },
   "dependencies": {
     "@cloudflare/pages-plugin-graphql": "^1.0.2",

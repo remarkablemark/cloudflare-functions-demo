@@ -7,7 +7,7 @@ mkdir -p $OUTPUT_DIRECTORY
 marked --input README.md --output $OUTPUT_FILE
 
 # https://github.com/sindresorhus/github-markdown-css#usage
-echo "<meta name='viewport' content='width=device-width,initial-scale=1'>
+HEAD=$(echo "<meta name='viewport' content='width=device-width,initial-scale=1'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css'>
 <style>
 .markdown-body {
@@ -23,8 +23,17 @@ echo "<meta name='viewport' content='width=device-width,initial-scale=1'>
   }
 }
 </style>
-<script src='https://unpkg.com/github-corners/dist/embed.min.js' data-href='https://github.com/remarkablemark/cloudflare-functions-demo' data-target='_blank' async defer></script>
+<script src='https://unpkg.com/github-corners/dist/embed.min.js' data-href='https://github.com/remarkablemark/cloudflare-functions-demo' data-target='_blank' async defer></script>")
+
+echo "$HEAD
 <body class='markdown-body'>
 $(cat $OUTPUT_FILE)
 </body>
 " > $OUTPUT_FILE
+
+echo "$HEAD
+<body class='markdown-body'>
+<h1>Not Found</h1>
+<a href='/'>Home</a>
+</body>
+" > $OUTPUT_DIRECTORY/404.html

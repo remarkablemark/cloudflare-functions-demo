@@ -1,6 +1,6 @@
 # cloudflare-functions-demo
 
-:cloud: [Cloudflare Functions Demo](https://cloudflare-functions-demo-dqb.pages.dev). See [Cloudflare documentation](https://developers.cloudflare.com/pages/platform/functions/)
+[Cloudflare Functions Demo](https://cloudflare-functions-demo-dqb.pages.dev). See [Cloudflare documentation](https://developers.cloudflare.com/pages/platform/functions/)
 
 ## Prerequisites
 
@@ -32,4 +32,4 @@ npm start
 
 ## License
 
-[MIT](LICENSE)
+[MIT](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/LICENSE)

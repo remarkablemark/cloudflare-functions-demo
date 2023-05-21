@@ -37,6 +37,7 @@ npm start
 | --- | --- |
 | [helloworld](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/helloworld.js) | [/helloworld](https://cloudflare-functions-demo-dqb.pages.dev/helloworld) |
 | [json](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/json.ts) | [/json](https://cloudflare-functions-demo-dqb.pages.dev/json) |
+| [typescript](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/typescript.ts) | [/typescript](https://cloudflare-functions-demo-dqb.pages.dev/typescript) |
 <!-- prettier-ignore-end -->
 
 ## License

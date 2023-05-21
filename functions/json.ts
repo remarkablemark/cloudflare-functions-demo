@@ -1,4 +1,6 @@
-// https://developers.cloudflare.com/workers/examples/return-json/
+/**
+ * @see {@link https://developers.cloudflare.com/workers/examples/return-json/}
+ */
 export const onRequest: PagesFunction = async (context) => {
   const data = {
     hello: 'world',

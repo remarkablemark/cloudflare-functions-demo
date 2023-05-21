@@ -30,6 +30,15 @@ Start a local server for developing your Pages:
 npm start
 ```
 
+## Functions
+
+<!-- prettier-ignore-start -->
+| File | Endpoint |
+| --- | --- |
+| [helloworld](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/helloworld.js) | [/helloworld](https://cloudflare-functions-demo-dqb.pages.dev/helloworld) |
+| [json](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/json.ts) | [/json](https://cloudflare-functions-demo-dqb.pages.dev/json) |
+<!-- prettier-ignore-end -->
+
 ## License
 
 [MIT](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/LICENSE)

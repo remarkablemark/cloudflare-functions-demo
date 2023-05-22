@@ -1,7 +1,8 @@
 {
   "scripts": {
     "start": "npm run build && wrangler pages dev dist",
-    "build": "scripts/build.sh"
+    "build": "scripts/build.sh",
+    "lint:tsc": "tsc --noEmit -p functions/tsconfig.json"
   },
   "dependencies": {
     "@cloudflare/pages-plugin-graphql": "1.0.2",

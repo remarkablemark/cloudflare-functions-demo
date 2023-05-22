@@ -46,6 +46,7 @@ kill $(lsof -ti :8788)
 | [html](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/html.ts) | [/html](https://cloudflare-functions-demo-dqb.pages.dev/html) |
 | [ip](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ip.ts) | [/ip](https://cloudflare-functions-demo-dqb.pages.dev/ip) |
 | [json](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/json.ts) | [/json](https://cloudflare-functions-demo-dqb.pages.dev/json) |
+| [post](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/post.ts) | [/post](https://cloudflare-functions-demo-dqb.pages.dev/post) |
 | [querystring](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/querystring.ts) | [/querystring](https://cloudflare-functions-demo-dqb.pages.dev/querystring?key=value) |
 | [typescript](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/typescript.ts) | [/typescript](https://cloudflare-functions-demo-dqb.pages.dev/typescript) |
 <!-- prettier-ignore-end -->

@@ -1,6 +1,4 @@
-interface Env {}
-
-export const onRequest: PagesFunction<Env> = async (context) => {
+export const onRequest: PagesFunction = async (context) => {
   const url = new URL(context.request.url);
 
   const params = {};

@@ -42,6 +42,7 @@ kill $(lsof -ti :8788)
 | File | Endpoint |
 | --- | --- |
 | [cf](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cf.ts) | [/cf](https://cloudflare-functions-demo-dqb.pages.dev/cf) |
+| [fetch](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/fetch.ts) | [/fetch](https://cloudflare-functions-demo-dqb.pages.dev/fetch) |
 | [helloworld](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/helloworld.js) | [/helloworld](https://cloudflare-functions-demo-dqb.pages.dev/helloworld) |
 | [html](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/html.ts) | [/html](https://cloudflare-functions-demo-dqb.pages.dev/html) |
 | [ip](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ip.ts) | [/ip](https://cloudflare-functions-demo-dqb.pages.dev/ip) |

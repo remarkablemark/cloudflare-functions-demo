@@ -2,6 +2,15 @@
  * @see {@link https://developers.cloudflare.com/workers/examples/cors-header-proxy/}
  */
 
+// Handle CORS preflight requests.
+export const onRequestOptions: PagesFunction = async () => {
+  return new Response(null, {
+    headers: {
+      'Access-Control-Allow-Origin': '*',
+    },
+  });
+};
+
 // The URL for the remote third party API you want to fetch from but does not implement CORS
 const API_URL = 'http://example.com';
 

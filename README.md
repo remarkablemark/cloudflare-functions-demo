@@ -49,6 +49,7 @@ kill $(lsof -ti :8788)
 | [environment-variables](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/environment-variables.ts) | [/environment-variables](https://cloudflare-functions-demo-dqb.pages.dev/environment-variables) |
 | [fetch](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/fetch.ts) | [/fetch](https://cloudflare-functions-demo-dqb.pages.dev/fetch) |
 | [form](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/form.ts) | [/form](https://cloudflare-functions-demo-dqb.pages.dev/form) |
+| [headers](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/headers.ts) | [/headers](https://cloudflare-functions-demo-dqb.pages.dev/headers) |
 | [helloworld](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/helloworld.js) | [/helloworld](https://cloudflare-functions-demo-dqb.pages.dev/helloworld) |
 | [html](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/html.ts) | [/html](https://cloudflare-functions-demo-dqb.pages.dev/html) |
 | [ip](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ip.ts) | [/ip](https://cloudflare-functions-demo-dqb.pages.dev/ip) |

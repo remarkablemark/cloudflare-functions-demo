@@ -1,5 +1,6 @@
 /**
  * @see {@link https://developers.cloudflare.com/workers/examples/cache-post-request/}
+ * @see {@link https://developers.cloudflare.com/workers/examples/cache-using-fetch/}
  */
 
 const requestUrl = 'http://example.com';
@@ -31,7 +32,16 @@ export const onRequestGet: PagesFunction = async (context) => {
       return response;
     } else {
       console.log('Cache miss');
-      response = await fetch(requestUrl);
+      response = await fetch(requestUrl, {
+        cf: {
+          // Always cache this fetch regardless of content type
+          // for a max of 5 seconds before revalidating the resource
+          cacheTtl: 5,
+          cacheEverything: true,
+        },
+      });
+      // Set cache control headers to cache on browser for 25 minutes
+      response.headers.set('Cache-Control', 'max-age=1500');
       context.waitUntil(cache.put(cacheKey, response.clone()));
       return response;
     }

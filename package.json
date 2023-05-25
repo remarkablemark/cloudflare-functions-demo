@@ -3,7 +3,7 @@
     "build": "scripts/build.sh",
     "clean": "rm -rf dist",
     "lint:tsc": "tsc --noEmit -p functions/tsconfig.json",
-    "start": "npm run build && wrangler pages dev dist --kv=KV_BINDING"
+    "start": "npm run build && wrangler pages dev dist --kv=KV_BINDING --r2=R2_BUCKET"
   },
   "dependencies": {
     "@cloudflare/pages-plugin-graphql": "1.0.2",

@@ -46,6 +46,7 @@ kill $(lsof -ti :8788)
 | [cors-proxy](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cors-proxy.ts) | [/cors-proxy](https://cloudflare-functions-demo-dqb.pages.dev/cors-proxy?url=http://example.com) |
 | [cors](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cors.ts) | [/cors](https://cloudflare-functions-demo-dqb.pages.dev/cors) |
 | [fetch](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/fetch.ts) | [/fetch](https://cloudflare-functions-demo-dqb.pages.dev/fetch) |
+| [form](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/form.ts) | [/form](https://cloudflare-functions-demo-dqb.pages.dev/form) |
 | [helloworld](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/helloworld.js) | [/helloworld](https://cloudflare-functions-demo-dqb.pages.dev/helloworld) |
 | [html](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/html.ts) | [/html](https://cloudflare-functions-demo-dqb.pages.dev/html) |
 | [ip](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ip.ts) | [/ip](https://cloudflare-functions-demo-dqb.pages.dev/ip) |

@@ -2,7 +2,7 @@
  * @see {@link https://developers.cloudflare.com/pages/platform/functions/bindings/#kv-namespaces}
  */
 interface Env {
-  MY_KV_BINDING: KVNamespace;
+  KV_BINDING: KVNamespace;
 }
 
 const html = (key, value) => `
@@ -17,7 +17,7 @@ const html = (key, value) => `
 const KEY = 'KEY';
 
 export const onRequestGet: PagesFunction<Env> = async (context) => {
-  const value = await context.env.MY_KV_BINDING.get(KEY);
+  const value = await context.env.KV_BINDING.get(KEY);
   return new Response(html(KEY, value), {
     headers: { 'content-type': 'text/html' },
   });
@@ -26,7 +26,7 @@ export const onRequestGet: PagesFunction<Env> = async (context) => {
 export const onRequestPost: PagesFunction<Env> = async (context) => {
   const formData = await context.request.formData();
   const value = formData.get(KEY);
-  await context.env.MY_KV_BINDING.put(KEY, value);
+  await context.env.KV_BINDING.put(KEY, value);
   return new Response(html(KEY, value), {
     headers: { 'content-type': 'text/html' },
   });

@@ -43,6 +43,7 @@ kill $(lsof -ti :8788)
 | --- | --- |
 | [dynamic/[name].ts](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/dynamic/[name].ts) | [/dynamic/world](https://cloudflare-functions-demo-dqb.pages.dev/dynamic/world) |
 | [r2](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/r2) | [/r2](https://cloudflare-functions-demo-dqb.pages.dev/r2) |
+| [cache](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cache.ts) | [/cache](https://cloudflare-functions-demo-dqb.pages.dev/cache) |
 | [cf](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cf.ts) | [/cf](https://cloudflare-functions-demo-dqb.pages.dev/cf) |
 | [cors-proxy](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cors-proxy.ts) | [/cors-proxy](https://cloudflare-functions-demo-dqb.pages.dev/cors-proxy?url=http://example.com) |
 | [cors](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cors.ts) | [/cors](https://cloudflare-functions-demo-dqb.pages.dev/cors) |

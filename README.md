@@ -46,6 +46,7 @@ kill $(lsof -ti :8788)
 | [cf](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cf.ts) | [/cf](https://cloudflare-functions-demo-dqb.pages.dev/cf) |
 | [cors-proxy](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cors-proxy.ts) | [/cors-proxy](https://cloudflare-functions-demo-dqb.pages.dev/cors-proxy?url=http://example.com) |
 | [cors](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cors.ts) | [/cors](https://cloudflare-functions-demo-dqb.pages.dev/cors) |
+| [environment-variables](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/environment-variables.ts) | [/environment-variables](https://cloudflare-functions-demo-dqb.pages.dev/environment-variables) |
 | [fetch](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/fetch.ts) | [/fetch](https://cloudflare-functions-demo-dqb.pages.dev/fetch) |
 | [form](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/form.ts) | [/form](https://cloudflare-functions-demo-dqb.pages.dev/form) |
 | [helloworld](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/helloworld.js) | [/helloworld](https://cloudflare-functions-demo-dqb.pages.dev/helloworld) |

@@ -1,4 +1,5 @@
 /**
+ * @see {@link https://developers.cloudflare.com/workers/examples/cache-api/}
  * @see {@link https://developers.cloudflare.com/workers/examples/cache-post-request/}
  * @see {@link https://developers.cloudflare.com/workers/examples/cache-using-fetch/}
  */

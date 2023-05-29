@@ -8,8 +8,15 @@ export const onRequestPost: PagesFunction<Env> = async (context) => {
   const formData = await context.request.formData();
   const file = formData.get(KEY) as unknown as File;
   const fileData = await file.arrayBuffer();
-  const obj = await context.env.R2_BUCKET.put(KEY, fileData);
-  obj.writeHttpMetadata(context.request.headers);
+  await context.env.R2_BUCKET.put(KEY, fileData, {
+    customMetadata: {
+      lastModified: String(file.lastModified),
+      name: file.name,
+      size: String(file.size),
+      type: file.type,
+    },
+    httpMetadata: context.request.headers,
+  });
 
   const url = new URL(context.request.url);
   const status = 303;

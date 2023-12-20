@@ -10,7 +10,7 @@
     "graphql": "16.8.1"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20231121.0",
+    "@cloudflare/workers-types": "4.20231218.0",
     "marked": "11.1.0",
     "typescript": "5.3.3",
     "wrangler": "3.21.0"

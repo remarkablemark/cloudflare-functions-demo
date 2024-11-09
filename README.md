@@ -41,8 +41,8 @@ kill $(lsof -ti :8788)
 <!-- prettier-ignore-start -->
 | File | Endpoint |
 | --- | --- |
-| [ai.ts](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ai.ts) | [/ai](https://cloudflare-functions-demo-dqb.pages.dev/ai) |
-| [dynamic/[name].ts](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/dynamic/[name].ts) | [/dynamic/world](https://cloudflare-functions-demo-dqb.pages.dev/dynamic/world) |
+| [ai](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ai.ts) | [/ai](https://cloudflare-functions-demo-dqb.pages.dev/ai) |
+| [dynamic/[name]](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/dynamic/[name].ts) | [/dynamic/world](https://cloudflare-functions-demo-dqb.pages.dev/dynamic/world) |
 | [r2](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/r2) | [/r2](https://cloudflare-functions-demo-dqb.pages.dev/r2) |
 | [cache](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cache.ts) | [/cache](https://cloudflare-functions-demo-dqb.pages.dev/cache) |
 | [cf](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/cf.ts) | [/cf](https://cloudflare-functions-demo-dqb.pages.dev/cf) |
@@ -52,7 +52,7 @@ kill $(lsof -ti :8788)
 | [fetch](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/fetch.ts) | [/fetch](https://cloudflare-functions-demo-dqb.pages.dev/fetch) |
 | [form](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/form.ts) | [/form](https://cloudflare-functions-demo-dqb.pages.dev/form) |
 | [headers](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/headers.ts) | [/headers](https://cloudflare-functions-demo-dqb.pages.dev/headers) |
-| [helloworld](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/helloworld.js) | [/helloworld](https://cloudflare-functions-demo-dqb.pages.dev/helloworld) |
+| [helloworld](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/helloworld.ts) | [/helloworld](https://cloudflare-functions-demo-dqb.pages.dev/helloworld) |
 | [html](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/html.ts) | [/html](https://cloudflare-functions-demo-dqb.pages.dev/html) |
 | [ip](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ip.ts) | [/ip](https://cloudflare-functions-demo-dqb.pages.dev/ip) |
 | [json](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/json.ts) | [/json](https://cloudflare-functions-demo-dqb.pages.dev/json) |

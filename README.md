@@ -41,8 +41,8 @@ kill $(lsof -ti :8788)
 <!-- prettier-ignore-start -->
 | File | Endpoint |
 | --- | --- |
-| [ai-stream-html](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ai-stream-html.ts) | [/ai](https://cloudflare-functions-demo-dqb.pages.dev/ai-stream-html) |
-| [ai-stream](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ai-stream.ts) | [/ai](https://cloudflare-functions-demo-dqb.pages.dev/ai-stream) |
+| [ai-stream-html](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ai-stream-html.ts) | [/ai-stream-html](https://cloudflare-functions-demo-dqb.pages.dev/ai-stream-html) |
+| [ai-stream](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ai-stream.ts) | [/ai-stream](https://cloudflare-functions-demo-dqb.pages.dev/ai-stream) |
 | [ai](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/ai.ts) | [/ai](https://cloudflare-functions-demo-dqb.pages.dev/ai) |
 | [dynamic/[name]](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/dynamic/[name].ts) | [/dynamic/world](https://cloudflare-functions-demo-dqb.pages.dev/dynamic/world) |
 | [r2](https://github.com/remarkablemark/cloudflare-functions-demo/blob/master/functions/r2) | [/r2](https://cloudflare-functions-demo-dqb.pages.dev/r2) |

@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "@cloudflare/pages-plugin-graphql": "1.0.4",
-    "graphql": "16.9.0"
+    "graphql": "16.10.0"
   },
   "devDependencies": {
     "@cloudflare/workers-types": "4.20241205.0",

@@ -13,6 +13,6 @@
     "@cloudflare/workers-types": "4.20250430.0",
     "marked": "15.0.11",
     "typescript": "5.8.3",
-    "wrangler": "4.14.0"
+    "wrangler": "4.14.1"
   }
 }
